@@ -1,0 +1,37 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 10px 20px 0px;
+}
+
+.nav-ul {
+  position: absolute;
+  right: 150px;
+  color: white;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.link {
+  padding: 0px 20px;
+  border-radius: 5px;
+  color: rgb(12, 114, 246);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:active {
+  color: red;
+}

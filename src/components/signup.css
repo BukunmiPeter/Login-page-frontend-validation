@@ -1,0 +1,98 @@
+/* .form-container {
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.34);
+  padding: 10px;
+}
+
+/* .register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+} */
+
+/* .Success-text {
+  font-family: sans-serif;
+  color: blue;
+  font-size: 30px;
+}
+
+.form-field {
+  padding: 15px;
+  margin: 10px 10px 0;
+  border-radius: 10px;
+  font-family: "roboto" sans sans-serif;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+button {
+  background: rgb(19, 128, 0);
+  color: white;
+  cursor: pointer;
+  border-radius: default;
+}
+
+button:disabled {
+  cursor: default;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.container {
+}
+
+.form-container {
+  margin-top: 90px;
+  border: 2px solid rgb(187, 230, 187);
+  border-radius: 10px;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.formfield1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.formfield2 {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-field {
+  border-radius: 10px;
+  background-color: white;
+  width: 400px;
+}
+
+button {
+  color: black;
+  background-color: green;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+}

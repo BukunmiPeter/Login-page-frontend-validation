@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+  background-color: rgb(82, 82, 206);
+}
+
+.texth1 {
+  color: white;
+  max-width: 1200px;
+  margin: 100px 100px 0 100px;
+  opacity: 0.5;
+}
